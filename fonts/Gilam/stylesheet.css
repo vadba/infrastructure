@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Gilam Black DEMO';
+    src: url('Gilam-BlackDEMO.eot');
+    src: local('Gilam Black DEMO'), local('Gilam-BlackDEMO'),
+        url('Gilam-BlackDEMO.eot?#iefix') format('embedded-opentype'),
+        url('Gilam-BlackDEMO.woff2') format('woff2'),
+        url('Gilam-BlackDEMO.woff') format('woff'),
+        url('Gilam-BlackDEMO.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilam Thin Italic DEMO';
+    src: url('Gilam-ThinItalicDEMO.eot');
+    src: local('Gilam Thin Italic DEMO'), local('Gilam-ThinItalicDEMO'),
+        url('Gilam-ThinItalicDEMO.eot?#iefix') format('embedded-opentype'),
+        url('Gilam-ThinItalicDEMO.woff2') format('woff2'),
+        url('Gilam-ThinItalicDEMO.woff') format('woff'),
+        url('Gilam-ThinItalicDEMO.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+

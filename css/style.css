@@ -1,0 +1,331 @@
+@import url(./normalize.css);
+@import url(../fonts/Circe/stylesheet.css);
+@import url(../fonts/Gilam/stylesheet.css);
+
+body {
+    font-family: Montserrat;
+    background-color: #171717;
+}
+
+.container {
+    width: 88%;
+    max-width: 1460px;
+    margin: 0 auto;
+  }
+
+.header-bg {
+    background-image: url(../images/header-bg.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.section-logo {
+    padding-top: 2.53%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content:space-between;
+}
+
+.logo-img {
+    width: 216px;
+    height: 33px;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+    justify-self:end;
+}
+
+.tel {
+    font-family: Circe;
+    font-weight: 700;
+    font-style:normal;
+    font-size: 19px;
+    line-height: 28зч;
+    color: #D6AF76;
+}
+
+.tel > span {
+    color: #FFFFFF;
+}
+
+.callback::before {
+    content: '';
+    background-image: url(../images/tel.png);
+    display: inline-block;
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+}
+
+.callback {
+    margin-left: 39px;
+    padding: 10px 25px;
+    border: 1px solid #E4B564;
+    font-family: Circe;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #E4B564;
+    cursor: pointer;
+}
+
+.section-header {
+    margin-top: 8.22%;
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, auto));
+    grid-template-rows: repeat(3, minmax(0, auto));
+    grid-gap: 30px;
+    width: 100%;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: Center;
+    color: #FFFFFF;
+}
+
+.header-title {
+    font-size: 50px;
+    line-height: 28px;
+    margin-bottom: 41px;
+}
+
+.header-subtitle {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+
+.grid-item-1 {
+    text-align: left;
+    grid-column: span 6;
+}
+
+.grid-item-2 {
+    padding: 47% 10%;
+    background-color: #634F2C;
+}
+
+.grid-item-3 {
+    padding: 44% 10%;
+    background-color: #B4A385;
+}
+
+.grid-item-4 {
+    padding: 47% 10%;
+    background-color: #E4B564;
+}
+
+.grid-item-5 {
+    padding: 30.7% 10%;
+    background-color: #635A4A;
+}
+
+.grid-item-6 {
+    padding: 30.7% 10%;
+    background-color: #B08C4D;
+}
+
+.grid-item-2, .grid-item-3, .grid-item-4 {
+    grid-column: span 2;
+}
+
+.grid-item-5, .grid-item-6 {
+    grid-column: span 3;
+}
+
+.paralax {
+    background-image: url(../images/parallax-bg.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.main-header-title {
+    font-style: Bold;
+    font-size: 50px;
+    line-height: 34px;
+    text-align: Left;
+    padding-top: 11.03%;
+    margin-bottom: 6.44%;
+    color: #FFFFFF;
+}
+
+.section-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(12, minmax(0, auto));
+    grid-gap: 30px;
+    grid-template-areas: "item-1 item-2 item-3"
+                         "item-1 item-2 item-3"
+                         "item-1 item-2 item-3"
+                         "item-1 item-2 item-6"
+                         "item-4 item-2 item-6"
+                         "item-4 item-2 item-6"
+                         "item-4 item-5 item-6"
+                         "item-4 item-5 item-6"
+                         "item-4 item-5 item-6"
+                         "item-4 item-5 item-7"
+                         "item-4 item-5 item-7"
+                         "item-4 item-5 item-7";
+    width: 100%;
+    padding-bottom: 13.15%;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.section-grid-item {
+    padding: 44px 0 0 52px;
+    font-size: 20px;
+    line-height: 25px;
+    box-sizing: border-box;
+}
+
+.section-grid-item-1 {
+    grid-area: item-1;
+    background-color: #0E0E0E;
+    height: 313px;
+}
+
+.section-grid-item-2 {
+    grid-area: item-2;
+    background-color: #242424;
+    height: 439px;
+}
+
+.section-grid-item-3 {
+    grid-area: item-3;
+    background-color: #1F1F1F;
+    height: 255px;
+}
+
+.section-grid-item-4 {
+    grid-area: item-4;
+    background-color: #1F1F1F;
+    /* height: 560px; */
+}
+
+.section-grid-item-5 {
+    grid-area: item-5;
+    background-color: #E4B564;
+    color: black;
+}
+
+.section-grid-item-6 {
+    grid-area: item-6;
+    background-color: #0E0E0E;
+    height: 313px;
+}
+
+.section-grid-item-7 {
+    grid-area: item-7;
+    background-color: #0A0909;
+    height: 277px;
+}
+
+.foooter-section {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 11.78%;
+    padding-bottom: 4.93%;
+}
+
+.footer-section-title {
+    font-size: 50px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.footer-button {
+    font-family: Circe;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 30px;
+    color: #E4B564;
+    border: 1px solid #E4B564;
+    padding: 10px 40px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 391px);
+    color: #FFFFFF;
+    margin-bottom: 16.4%;
+}
+
+.footer-grid-item {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.footer-grid-item-1 {
+    background-color: #634F2C;
+}
+
+.footer-grid-item-2 {
+    background-color: rgba(232, 210, 171, 0.76);
+    padding: 61px 80px;
+    text-align: center;
+}
+
+.footer-grid-item-3 {
+    background-color: #E4B564;
+}
+
+.footer-grid-item-4 {
+    background-color: #635A4A;
+}
+
+.footer-grid-item-5 {
+    background-color: #B08C4D;
+}
+
+.footer-grid-item-6 {
+    background-color: #634F2C;
+}
+
+.img-grid-1 {
+    width: 185px;
+    height: 49px;
+}
+
+.img-grid-21 {
+    width: 62px;
+    height: 55px;
+}
+
+.img-grid-22 {
+    width: 139px;
+    height: 55px;
+}
+
+.img-grid-3 {
+    width: 190px;
+    height: 42px;
+}
+
+.img-grid-5 {
+    width: 119px;
+    height: 53px;
+}
+
+.footer-text {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.footer-text-normal {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+}
